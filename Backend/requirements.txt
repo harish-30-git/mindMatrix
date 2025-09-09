@@ -9,4 +9,5 @@ datetime
 functools
 pymongo
 bson.objectid
+gunicorn
 jwt

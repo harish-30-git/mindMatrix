@@ -1,0 +1,12 @@
+flask
+flask_cors
+google.generativeai
+dotenv
+pandas
+sklearn-learn
+bcrypt
+datetime
+functools
+pymongo
+bson.objectid
+jwt

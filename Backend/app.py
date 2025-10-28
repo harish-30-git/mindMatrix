@@ -42,7 +42,7 @@ moods.create_index([("user_id", ASCENDING), ("date", ASCENDING)], unique=True)
 # GEMINI CONFIG
 # ==========================
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-gemini_model = genai.GenerativeModel("gemini-1.5-flash")
+gemini_model = genai.GenerativeModel("gemini-2.5-flash")
 
 system_prompt = (
     "You are MentalHealthBot, a supportive assistant designed to help with "

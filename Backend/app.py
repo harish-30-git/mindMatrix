@@ -25,7 +25,7 @@ app = Flask(__name__)
 
 # ✅ Allow only specific frontend domains
 allowed_origins = [
-    "https://mindful-matrix-lliz.vercel.app",  # Your deployed frontend on Vercel
+    "https://mindful-matrix-wivi.vercel.app",  # Your deployed frontend on Vercel
     "http://localhost:5173"  # Local dev (Vite default)
 ]
 CORS(app, resources={r"/*": {"origins": allowed_origins}}, supports_credentials=True)
